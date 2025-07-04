@@ -168,4 +168,4 @@ def update_dashboard(n_clicks, search_value):
     return company_info, charts
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
